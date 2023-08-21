@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import contactimg from '../components/images/contact.png'
-import insta from '../components/images/instagram.svg'
+import github from '../components/images/github.png'
 import link from '../components/images/linkedin-in.svg'
 import twitter from '../components/images/twitter.svg'
 import message from '../components/images/message.svg'
@@ -55,7 +55,7 @@ function Contacts() {
         </div>
         <div className='footer md:flex justify-center'>
           <h2 className='text-3xl lg:text-4xl'>Kritheebhan</h2>
-             <a href="https://instagram.com/kritheebhan?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D" target="_blank" className='social-media'><img src={insta} alt="" /></a>
+             <a href="https://github.com/kritheebhan" target="_blank" className='social-media'><img src={github} alt="" /></a>
              <a href="https://www.linkedin.com/in/kritheebhan-b-8b130b213" target="_blank" className='social-media'><img src={link} alt="" /></a>
              <a href="" className='social-media'><img src={twitter} alt="" /></a>
         </div>

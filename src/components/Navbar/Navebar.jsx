@@ -1,7 +1,7 @@
 import React, { Component, useState } from 'react'
 import { Link } from 'react-scroll'
 import "./Navebar.css"
-import insta from "../images/instagram.svg"
+import github from "../images/github.png"
 import link from "../images/linkedin-in.svg"
 import twitter from "../images/twitter.svg"
 
@@ -28,7 +28,7 @@ export default class Navebar extends Component {
           <i id="bar" className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
         </div>
         <div className="navimg hidden lg:flex">
-             <a href="https://github.com/kritheebhan" target="_blank" className='media'><img src={insta} alt="" /></a>
+             <a href="https://github.com/kritheebhan" target="_blank" className='media'><img src={github} alt="" /></a>
              <a href="https://www.linkedin.com/in/kritheebhan-b-8b130b213" target="_blank" className='media'><img src={link} alt="" /></a>
              <a href="" className='media'><img src={twitter} alt="" /></a>
         </div>
