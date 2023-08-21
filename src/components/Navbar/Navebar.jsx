@@ -28,7 +28,7 @@ export default class Navebar extends Component {
           <i id="bar" className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
         </div>
         <div className="navimg hidden lg:flex">
-             <a href="https://instagram.com/kritheebhan?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D" target="_blank" className='media'><img src={insta} alt="" /></a>
+             <a href="https://github.com/kritheebhan" target="_blank" className='media'><img src={insta} alt="" /></a>
              <a href="https://www.linkedin.com/in/kritheebhan-b-8b130b213" target="_blank" className='media'><img src={link} alt="" /></a>
              <a href="" className='media'><img src={twitter} alt="" /></a>
         </div>
