@@ -1,0 +1,108 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 0px;
+    border-bottom: solid 2px;
+    position: fixed;
+    background-color: #F8FAFC;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+#navbar{
+    display: flex;
+    justify-content: center;
+    /* padding-right: 570px; */
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 35px;
+    position: relative;
+}
+
+#navbar li a{
+    text-decoration: none;
+    color: #1d1d1d;
+    font-family:  sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    transition: 0.3s ease-in-out;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: #7575c8;
+}
+
+/* #navbar li a:hover::after,
+#navbar li a.active::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color: #7575c8;
+    position: absolute;
+    bottom: -4px;
+    left: 35px;
+} */
+.navimg img{
+    height: 23px;
+    display: inline;
+}
+.media{
+    padding: 4px 8px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0px 13px;;
+    background-color: #fff;
+    box-shadow: 0px 4px 0px black;
+    
+}
+.media:hover {
+    position: relative;
+    top: 5px;
+    box-shadow: none !important;
+    transition: 0.3s ease-in-out;
+}
+  
+.mobail{
+    display: none;
+}
+
+@media screen and (max-width:769px) {
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 106px;
+        right: -300px;
+        width: 200px;
+        height: 100vh;
+        background-color: #F8FAFC;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 40px 0 0 10px;
+        border: solid 2px;
+        transition: 0.6s ease-in-out ;
+    }
+
+    #navbar.active{
+        right: 0px
+    }
+     #navbar li{
+        margin-bottom: 25px;
+     }
+    .mobail{
+        display: block;
+    }
+
+    .mobail i{
+        font-size: 24px;
+        cursor: pointer;
+    }
+    .nav{
+        padding: 35px 30px;
+    }
+}
