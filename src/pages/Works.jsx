@@ -23,29 +23,29 @@ function Work() {
       <div className='card my-10'>
           <div className='border-2 border-slate-900 rounded-xl lg:flex p-10 m-4' id='ml'>
             <img src={machine_learning} alt="" id='icon' />
-            <p className='paragraph-large lg:pl-10 mt-7 font-semibold'>Automatic skin cancer detection
-            <p className='pargraph-small mt-2 '>Based on the feature extraction module of the proposed recognition model and U-Net architecture a lightweight CNN model.</p>
+            <p className='paragraph-large lg:pl-10 mt-7 font-semibold text-justify'>Automatic skin cancer detection
+            <p className='pargraph-small mt-2 '>Automatic Skin Cancer Detection uses a lightweight CNN model based on feature extraction and U-Net architecture. The system efficiently identifies skin cancer by analyzing image features. It enhances diagnostic accuracy and speeds up detection.</p>
             </p>
           </div>
 
           <div className='border-2 border-slate-900 rounded-xl lg:flex p-10 m-4' id='cg'>
             <img src={crypto_graphy} alt="" id='icon' />
-            <p className='paragraph-large lg:pl-10 mt-7  font-semibold'>Digital Certificate Authentication
-            <p className='pargraph-small mt-2 '>Cryptography authentication method using digital signatures that are used as confidential evidence and validation of digital certificate ownership.</p>
+            <p className='paragraph-large lg:pl-10 mt-7  font-semibold text-justify'>Digital Certificate Authentication
+            <p className='pargraph-small mt-2 '>Digital Certificate Authentication uses cryptographic methods and digital signatures to verify and validate digital certificate ownership. It ensures confidential evidence and secure authentication. The system enhances digital security by confirming certificate authenticity.</p>
             </p>
           </div>
 
           <div className='border-2 border-slate-900 rounded-xl lg:flex p-10 m-4' id='pt'>
             <img src={portfolio} alt="" id='icon'/>
-            <p className='paragraph-large  lg:pl-10 mt-7  font-semibold'>Automatic skin cancer detection
-            <p className='pargraph-small mt-2 '>A portfolio is a compilation of academic and professional materials. It provides insight into your personality and work ethic.</p>
+            <p className='paragraph-large  lg:pl-10 mt-7  font-semibold'>Global Culture Connect
+            <p className='pargraph-small mt-2 text-justify'>Global Culture Connect is a web platform that collects and organizes information about cultures worldwide. It helps users learn about diverse cultural practices, traditions, and histories. The platform promotes cultural awareness and understanding.</p>
             </p>
           </div>
 
           <div className='border-2 border-slate-900 rounded-xl lg:flex p-10 m-4' id='ja'>
             <img src={java} alt="" id='icon' />
             <p className='paragraph-large  lg:pl-10 mt-7  font-semibold'>E - Health Care System
-            <p className='pargraph-small mt-2 '>E health care management system is a web-based application that assists in management of staff, Doctors and patients in easy.</p>
+            <p className='pargraph-small mt-2 text-justify'>E-Health Care System is a web-based application designed for efficient management of staff, doctors, and patients. It streamlines healthcare operations by simplifying scheduling, records, and communication. The system enhances overall efficiency and accessibility in healthcare management.</p>
             </p>
           </div>
           

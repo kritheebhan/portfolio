@@ -2,7 +2,7 @@ import React from 'react'
 import "../App.css"
 import About from "../components/images/About.png"
 import Heart from "../components/images/heart.svg"
-import myimg from "../components/images/imgabout.png"
+// import myimg from "../components/images/imgabout.png"
 
 
 function about() {
@@ -19,14 +19,14 @@ function about() {
         </div>
         <div className='text-center sm:text-left'>
         <p className='text-4xl lg:text-5xl font-semibold mt-6'>More about me</p>
-        <p className='paragraph-large mt-6 '>
-          Hello! I'm Kritheebhan, a front end developer and designer. I'm passionate about the work that I do. 
+        <p className='paragraph-large mt-6 text-justify '>
+        Hello! I’m Kritheebhan, a front-end developer and designer passionate about my work.
         </p>
-        <p  className='pargraph-small mt-6'>
-        An Engineer from the graduation batch of 2023, with interest in Web and App Development. Seeking an Job position in Software Development. Seeking an entry-level opportunity with an esteemed organization where I can utilize my skills & enhance learning in the field of work. Capable of mastering new technologies.
+        <p  className='pargraph-small mt-6 text-justify'>
+        graduated in 2023 with a degree in Engineering and have a strong interest in web and app development. I’m seeking an entry-level position in software development with a respected organization where I can leverage my skills and continue learning.
         </p>
-        <p className='pargraph-small mt-6'>
-        Enthusiastic and innovative learner looking forward toimproving my skills and growing along with theorganization.
+        <p className='pargraph-small mt-6 text-justify'>
+        I am an enthusiastic and innovative learner eager to improve my skills and grow alongside the company.
         </p>
       </div>
       </div>
