@@ -1,0 +1,45 @@
+AWS SAA-C03 Practical Experiments and Study Guide
+Experiment 1 intake form
+Version 0.1 — copy this block into your next message and fill every field.
+Do not include access keys, secret keys, passwords, .pem contents, or unredacted account IDs.
+
+EXPERIMENT NAME:
+COURSE SECTION / MODULE:
+COURSE LAB NUMBER (if any):
+AWS REGION (for example ap-south-1):
+AWS ACCOUNT TYPE (personal / sandbox; do not send the account ID):
+
+WHAT I BUILT (5 to 15 sentences in my own words):
+
+
+WHY THIS LAB MATTERS:
+
+
+AWS SERVICES USED:
+
+
+IMPORTANT SETTINGS (CIDRs, instance types, ports, names, encryption flags):
+
+
+HOW I TESTED THAT IT WORKED:
+
+
+ERRORS OR UNEXPECTED RESULTS (paste the message if you still have it):
+
+
+WHAT I FOUND CONFUSING:
+
+
+CLEANUP STATUS (resources still running / already deleted):
+
+SCREENSHOT LIST
+Rename files as EXP01-Step01-short-description.png when you can.
+Hide account IDs, emails, keys, and IP addresses before sending.
+
+Image file name:
+What the image shows (which step):
+Redacted? (yes/no):
+
+Image file name:
+What the image shows (which step):
+Redacted? (yes/no):
